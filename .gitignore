@@ -38,6 +38,8 @@ x64/
 *.log
 *.vspscc
 *.vssscc
+*.vsidx
+
 .builds
 *.pidb
 *.log
@@ -131,3 +133,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+TestStore/*
+v17/*
