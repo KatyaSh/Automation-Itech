@@ -39,6 +39,7 @@ x64/
 *.vspscc
 *.vssscc
 *.vsidx
+*.vs
 
 .builds
 *.pidb
