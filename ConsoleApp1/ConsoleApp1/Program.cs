@@ -41,7 +41,7 @@ else
 }
 
 //Task4
-//The best types for the variables are those that the system specifies dynamically for them
+
 var a = -34;
 var b = 4;
 var c = "Hello";
