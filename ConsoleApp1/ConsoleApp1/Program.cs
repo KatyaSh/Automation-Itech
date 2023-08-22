@@ -42,22 +42,15 @@ else
 
 //Task4
 
-var a = -34;
-var b = 4;
-var c = "Hello";
-var d = 'R';
-var e = 23.093433222;
-var f = 40000;
-var g = true;
-var h = 0;
-Console.WriteLine("The best type for -34 is: " + a.GetType());
-Console.WriteLine("The best type for 4 is: " + b.GetType());
-Console.WriteLine("The best type for \"Hello\" is: " + c.GetType());
-Console.WriteLine("The best type for \'R\' is: " + d.GetType());
-Console.WriteLine("The best type for 23.093433222 is: " + e.GetType());
-Console.WriteLine("The best type for 40000 is: " + f.GetType());
-Console.WriteLine("The best type for true is: " + g.GetType());
-Console.WriteLine("The best type for 0 is: " + h.GetType());
+int a = -34;
+uint b = 4;
+string c = "Hello";
+char d = 'R';
+double e = 23.093433222;
+uint f = 40000;
+bool g = true;
+int h = 0;
+
 
 //Task 5
 Console.Write("Enter your number:");
