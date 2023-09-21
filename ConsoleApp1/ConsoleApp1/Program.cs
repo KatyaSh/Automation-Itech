@@ -66,6 +66,7 @@ class Factory
             employee.EmployeeInfoPrint();
         }
     }
+    
     public void PrintEmployeesInfo()
     {
         foreach (Employee employee in employees)

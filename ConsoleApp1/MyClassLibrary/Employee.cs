@@ -16,7 +16,8 @@ namespace MyClassLibrary
             this.age = age;
             this.position = position;
         }
-
+        
         public void EmployeeInfoPrint() => Console.WriteLine($"Name: {firstName}, LastName: {lastName}, age: {age}, Position: {position}");
-     }
+    
+    }
 }
