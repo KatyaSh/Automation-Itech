@@ -65,6 +65,7 @@ class Factory
         {
             employee.EmployeeInfoPrint();
         }
+
     }
     
     public void PrintEmployeesInfo()
@@ -73,6 +74,7 @@ class Factory
         {
             employee.EmployeeInfoPrint();
         }
+
     }
 
     public void PrintEmployeesInfoCertainPositin(string position)
@@ -83,6 +85,9 @@ class Factory
             {
                 employee.EmployeeInfoPrint();
             }
+
         }
+
     }
+
 }
