@@ -1,0 +1,18 @@
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Task6.exe
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Task6.deps.json
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Task6.runtimeconfig.json
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Task6.dll
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Task6.pdb
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Employee lib.dll
+D:\C# automation\repo\Task6\Task6\bin\Debug\net7.0\Employee lib.pdb
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.csproj.AssemblyReference.cache
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.AssemblyInfoInputs.cache
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.AssemblyInfo.cs
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.csproj.CoreCompileInputs.cache
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.csproj.CopyComplete
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.dll
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\refint\Task6.dll
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.pdb
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\Task6.genruntimeconfig.cache
+D:\C# automation\repo\Task6\Task6\obj\Debug\net7.0\ref\Task6.dll

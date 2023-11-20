@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Reflection.Metadata;
-using MyClassLibrary;
+using Employee_lib;
 // В главном проекте также создайте класс с полями, методами.
 // Одно из полей должно иметь тип класса из подключенной библиотеки.
 // Используйте несколько конструкторов – с различным количеством и типом параметров.
@@ -27,63 +27,68 @@ factory1.PrintEmployeesInfo();
 // выводит список всех сотрудников, соответствующих определенной должности.
 class Factory
 {
-    public string name;
-    public Employee[] employees;
+    private string name;
+
+    public string Name { get; set; }
+
+    private Employee[] employees;
+
+    public Employee[] Employees { get; set; }
 
     public Factory()
     {
-        this.name = "Krasnaya zarya";
-        this.employees = new Employee[] { (new Employee("Bob", "Smith", 35, "Plotnik")), (new Employee("Tom", "Ken", 18, "Stolyar")) };
+        Name = "Krasnaya zarya";
+        Employees = new Employee[] { (new Employee("Bob", "Smith", 35, "Plotnik")), (new Employee("Tom", "Ken", 18, "Stolyar")) };
     }
 
     public Factory(string name)
     {
-        this.name = name;
-        this.employees = new Employee[] { (new Employee("Sam", "Donavan", 35, "Pokraschik")), (new Employee("Vanessa", "Kuper", 23, "OTK")) };
+        Name = name;
+        Employees = new Employee[] { (new Employee("Sam", "Donavan", 35, "Pokraschik")), (new Employee("Vanessa", "Kuper", 23, "OTK")) };
     }
 
     public Factory(string name, Employee[] employees)
     {
-        this.name = name;
-        this.employees = employees;
+        Name = name;
+        Employees = employees;
     }
 
-    public void NumberOfEmployees() => Console.WriteLine(employees.Length);
-    
+    public void NumberOfEmployees() => Console.WriteLine(Employees.Length);
+
     public void AddNewEmployee(Employee personNew)
     {
-       var employeesNew = new Employee[employees.Length + 1];
+        var employeesNew = new Employee[Employees.Length + 1];
 
-        for (int i = 0; i < employees.Length; i++)
+        for (int i = 0; i < Employees.Length; i++)
         {
-            employeesNew[i] = employees[i];
+            employeesNew[i] = Employees[i];
         }
 
-        employeesNew[employees.Length] = personNew;
+        employeesNew[Employees.Length] = personNew;
 
         foreach (Employee employee in employeesNew)
         {
-            employee.EmployeeInfoPrint();
+            employee.PrintInfo();
         }
 
     }
-    
+
     public void PrintEmployeesInfo()
     {
-        foreach (Employee employee in employees)
+        foreach (Employee employee in Employees)
         {
-            employee.EmployeeInfoPrint();
+            employee.PrintInfo();
         }
 
     }
 
     public void PrintEmployeesInfoCertainPositin(string position)
     {
-        foreach (Employee employee in employees)
+        foreach (var employee in Employees)
         {
-            if (position.Equals(employee.position))
+            if (position.Equals(employee.Position))
             {
-                employee.EmployeeInfoPrint();
+                employee.PrintInfo();
             }
 
         }
