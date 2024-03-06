@@ -1,7 +1,7 @@
 ﻿using System;
 interface IFly
-    {     
-        void Fly();
+{     
+    void Fly();
                
-    }
+}
 

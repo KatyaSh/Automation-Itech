@@ -2,9 +2,7 @@
 class MobilePhone : Device, ITakePhoto
 {
     string Model { get; set; }
-
     double Price { get; set; }
-
     string Brand { get; set; }
 
     public MobilePhone(string model, string brand, double price)

@@ -2,11 +2,8 @@
 public abstract class Device
 {
     public string Model { get; set; }
-
     public double Price { get; set; }
-
     public string Brand { get; set; }
-
 
     public abstract void Charge();
 

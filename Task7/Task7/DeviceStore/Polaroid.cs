@@ -2,9 +2,7 @@
 class Polaroid : Device, ITakePhoto, IPrint
 {
     string Model { get; set; }
-
     double Price { get; set; }
-
     string Brand { get; set; }
 
     public Polaroid(string model, string brand, double price)

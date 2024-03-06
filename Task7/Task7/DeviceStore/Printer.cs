@@ -4,9 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 class Printer : Device, IPrint
 {
     string Model { get; set; }
-
     double Price { get; set; }
-
     string Brand { get; set; }
 
     public Printer(string model, string brand, double price)
