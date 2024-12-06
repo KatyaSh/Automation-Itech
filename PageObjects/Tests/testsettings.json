@@ -1,0 +1,16 @@
+{
+  "Common": {
+    "Browser": "Chrome",
+    "DemoQAUrls": {
+      "DemoQAHomePage": "https://demoqa.com/",
+      "CheckboxPage": "https://demoqa.com/checkbox",
+      "RadioButtonPage": "https://demoqa.com/radio-button",
+      "WebTablePage": "https://demoqa.com/webtables",
+      "ButtonsPage": "https://demoqa.com/buttons",
+      "LinksPage": "https://demoqa.com/links",
+      "BrokenImagePage": "https://demoqa.com/broken",
+      "UploadAndDownloadPage": "https://demoqa.com/upload-download",
+      "DynamicPropertiesPage": "https://demoqa.com/dynamic-properties"
+    }
+  }
+}
